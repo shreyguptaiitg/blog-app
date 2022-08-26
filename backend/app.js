@@ -10,7 +10,7 @@ app.use("/api/user", router);
 app.use("/api/blog", blogRouter);
 mongoose
   .connect(
-    "mongodb+srv://shreyguptaiitg:Ramsagar%40123@cluster0.4j1trac.mongodb.net/test"
+    ""
   )
   .then(() => app.listen(5000))
   .then(() =>
